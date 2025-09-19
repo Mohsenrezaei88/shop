@@ -9,6 +9,6 @@
 .idea
 .vscode
 .DS_Store
-!storage/sms/sms.txt
-!storage/framework
-!bootstrap/cache
+!bootstrap/cache/.gitkeep
+!storage/framework/views/.gitkeep
+!storage/logs/.gitkeep
