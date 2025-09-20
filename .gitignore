@@ -11,4 +11,5 @@
 .DS_Store
 !bootstrap/cache/.gitkeep
 !storage/framework/.gitkeep
+!storage/framework/views/.gitkeep
 !storage/logs/.gitkeep
