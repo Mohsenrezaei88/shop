@@ -1630,6 +1630,7 @@
                                         <span>امروز</span>
                                     </li>
             `);
+            date = now
                 }
                 $("#ul-messages").append(messageHtml);
                 $("#send-message").val('');
@@ -1807,7 +1808,7 @@
     <script src="<?php echo e(url('./assets/js/datatables.js')); ?>"></script>
 
 
-    <script src="<?php echo e(url('../../assets/libs/fg-emoji-picker/fgEmojiPicker.js')); ?>"></script>
+    
     <script src="<?php echo e(url('../../assets/libs/glightbox/js/glightbox.min.js')); ?>"></script>
     <script src="<?php echo e(url('../../assets/js/chat.js')); ?>"></script>
     

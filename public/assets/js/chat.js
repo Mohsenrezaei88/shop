@@ -67,12 +67,3 @@ let changeTheInfo = (element, name, img, status) => {
     document.querySelector(".main-chart-wrapper").classList.add("responsive-chat-open")
 }
 
-new FgEmojiPicker({
-    trigger: [".emoji-picker"],
-    insertInto: document.querySelector(".chat-message-space"),
-    closeButton: true,
-    position: ['top', 'right'],
-    preFetch: true,
-    dir:"./assets/libs/fg-emoji-picker/"
-});
-
