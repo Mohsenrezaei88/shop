@@ -12,7 +12,7 @@ class AdminUserSeeder extends Seeder
     {
         User::create([
             "name" => "Mohammad",
-            "phonenumber" => "09153885712",
+            "phonenumber" => "09150000712",
             "password" => Hash::make("12345678"),
             "role_id" => 3
         ]);
