@@ -1,4 +1,3 @@
-
 <?php $__env->startSection('content'); ?>
     <div class="row authentication two-step-verification authentication-cover-main mx-0 p-0">
         <div class="col-xxl-6 col-xl-7">

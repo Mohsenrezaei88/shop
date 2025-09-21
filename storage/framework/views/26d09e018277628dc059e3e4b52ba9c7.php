@@ -1,14 +1,55 @@
 <?php $__env->startSection('content'); ?>
+    <div id="carouselExampleFade" class="carousel slide carousel-fade py-3 mb-5" style="height: 35%" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="3"
+                    aria-label="Slide 4"></button>
+                <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="4"
+                    aria-label="Slide 5"></button>
+                <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="5"
+                    aria-label="Slide 6"></button>
+                <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="6"
+                    aria-label="Slide 7"></button>
+            </div>
+            <div class="carousel-item active">
+                <img src="<?php echo e(asset('site/slide1.jpg')); ?>" class="d-block w-100 h-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="<?php echo e(asset('site/slide2.jpg')); ?>" class="d-block w-100 h-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="<?php echo e(asset('site/slide3.jpg')); ?>" class="d-block w-100 h-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="<?php echo e(asset('site/slide4.jpg')); ?>" class="d-block w-100 h-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="<?php echo e(asset('site/slide5.jpg')); ?>" class="d-block w-100 h-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="<?php echo e(asset('site/slide6.jpg')); ?>" class="d-block w-100 h-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="<?php echo e(asset('site/slide7.jpg')); ?>" class="d-block w-100 h-100" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">قبلی</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">بعدی</span>
+        </button>
+    </div>
     <div class="row">
         <div class="col-xxl-12">
-            <div class="d-flex align-items-center justify-content-between mb-3">
-                <h6 class="fw-medium mb-0">دسته بندی ها</h6>
-                <div class="d-flex gap-2 align-items-center">
-                    <a class="categories-arrow left"><i class="ri-arrow-left-s-line"></i></a>
-                    <a class="categories-arrow right"><i class="ri-arrow-right-s-line"></i></a>
-                </div>
-            </div>
-
             <div class="row pos-category" id="filter">
                 <!-- همه دسته بندی ها -->
                 <div class="col-xxl col-xl-4 col-md-6">
