@@ -14,6 +14,7 @@ use App\Http\Controllers\productController;
 use App\Http\Controllers\attributeController;
 use App\Http\Controllers\PostController;
 use App\Http\Controllers\supportController;
+use App\Http\Controllers\WriterController;
 use App\Models\cart;
 use App\Models\category;
 use App\Models\order;
@@ -127,9 +128,12 @@ Route::post('getaddress', [apiController::class, "get_address"])->name("get_addr
 Route::prefix('support')->group(function () {
     Route::post("", [supportController::class, "index"])->name("support_index");
 });
-Route::get("test", function () {
-    dd(\Morilog\Jalali\Jalalian::now()->format('m/d'));
+Route::group(['prefix' => 'writer'], function () {
+    route::get('panel' , [WriterController::class , "index"])->name('writer_panel');
 });
+//Route::get("test", function () {
+//    dd(\Morilog\Jalali\Jalalian::now()->format('m/d'));
+//});
 // });
 // Route::post("test-upload", function (Request $request) {
 //     dd($request->all());

@@ -4,7 +4,7 @@
         <div>
             <nav>
                 <ol class="breadcrumb mb-1">
-                    <li class="breadcrumb-item"><a href="javascript:void(0);">خانه</a></li>
+                    <li class="breadcrumb-item"><a href="{{route('index')}}">خانه</a></li>
                     <li class="breadcrumb-item active" aria-current="page">مقالات</li>
                 </ol>
             </nav>
