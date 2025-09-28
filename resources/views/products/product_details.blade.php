@@ -54,9 +54,6 @@
                 @push('scripts')
                     <script src="{{ url('../../assets/libs/swiper/swiper-bundle.min.js') }}"></script>
 
-                    <!-- Gallery JS -->
-                    <script src="{{ url('../../assets/libs/glightbox/js/glightbox.min.js') }}"></script>
-
                     <!-- Internal Ecommerce Product Details -->
                     <script src="{{ url('../../assets/js/ecommerce-product-details.js') }}"></script>
                 @endpush

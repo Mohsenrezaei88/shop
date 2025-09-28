@@ -54,7 +54,7 @@
                     <script src="<?php echo e(url('../../assets/libs/swiper/swiper-bundle.min.js')); ?>"></script>
 
                     <!-- Gallery JS -->
-                    <script src="<?php echo e(url('../../assets/libs/glightbox/js/glightbox.min.js')); ?>"></script>
+                    
 
                     <!-- Internal Ecommerce Product Details -->
                     <script src="<?php echo e(url('../../assets/js/ecommerce-product-details.js')); ?>"></script>

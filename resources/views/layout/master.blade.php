@@ -1181,7 +1181,7 @@
             background: #8d9095;
         }
     </style>
-        <div style="margin-top: 80px; margin-right: 0;" class="main-content app-content">
+        <div style="margin-top: 80px; margin-right: 0;margin-left:0" class="main-content app-content">
             <div class="container-fluid">
 
                 @yield('content')
